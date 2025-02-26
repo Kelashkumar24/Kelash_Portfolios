@@ -1,0 +1,603 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* home secton */
+    .text-box p{
+        margin: auto;
+    }
+    #Home{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:50px 0;
+    }
+    .home-content{
+        width: auto;
+        text-align: left;
+    }
+    .left-text{
+        margin-left: 0;
+        border-radius: 0%;
+        padding: 0;
+    }
+    /* about section */
+    #about{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 40px;
+    }
+    #about img{
+        display: none;
+        border-bottom: none;
+    }
+    .about-text{
+        width: auto;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    /* serves section */
+    #services{
+        text-align: center;
+        padding: 30px;
+    }
+    #services p{
+        margin: auto;
+    }
+    .services-box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0 50px;
+        margin: 0 auto;
+    }
+    .s-box-1{
+        width: 100%;
+        padding: 20px;
+        margin: 10px;
+    }
+    /* reviews boxs */
+    #review-boxs{
+        padding: 40px 10px;
+    }
+    .review-box1{
+        width: 100%;
+        height: 160px;
+        padding: 20px;
+    }
+    /* blog sections */
+    .ui-ux{
+        margin: 0;
+    }
+    .ui-uxbox{
+        width: auto;
+        margin: 10px;
+    }
+}
+/* media query/ for responsive web! */
+@media (max-width: 991px) and (min-width:768px){
+/* home secton */
+.size-increase{
+    font-size: 3rem;
+    height: auto;
+}
+.text-box p{
+    margin: auto;
+}
+#Home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px 0;
+}
+#Home img{
+    width: 300px;
+    /* object-fit: contain;
+    mix-blend-mode: color-burn; */
+}
+.home-content{
+    width: auto;
+    text-align: left;
+}
+.Name{
+    font-size: 1rem;
+}
+.home-content h3,p,button{
+    margin-left: 0;
+}
+.left-text{
+    margin-left: 0;
+    border-radius: 0%;
+
+}
+/* about section */
+#about{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border-bottom: none;
+}
+#about img{
+    width: 300px;
+    border-bottom: none;
+}
+.about-text{
+    width: auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+.about-text h1{
+    margin: 5px 0;
+    border-bottom: none;
+    text-align: center;
+}
+.circle-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+}
+.circle{
+    margin: 10px 0;
+}
+/* serves section */
+#services{
+    text-align: center;
+    padding: 20px 0;
+}
+#services p{
+    margin: auto;
+}
+#services p span{
+   margin-left: 0;
+   font-weight: bold;
+}
+.services-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+.s-box-1{
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+}
+/* reviews boxs */
+.review-boxs{
+    margin: auto;
+    padding: auto;
+}
+.review-box1{
+    width: 100%;
+    height: auto;
+}
+/* blog sections */
+#Blog h5{
+    margin-left: 0;;
+}
+.ui-ux{
+    margin: 0;
+}
+.ui-uxbox{
+    width: auto;
+    margin: 10px;
+}
+#contact{
+    border-radius: 5px;
+    padding: 50px;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+}
+/* Responsive Navigation */
+@media (min-width: 576px) and (max-width: 767px) {  
+/* home secton */
+.size-increase{
+    font-size: 3rem;
+    height: auto;
+}
+.social{
+    justify-content: center;
+    margin: 0 20px;
+    text-align: center;
+}
+.text-box{
+    flex-wrap: nowrap;
+    padding-left:0;
+    padding: 5px 0;
+}
+.text-box p{
+    margin: auto;
+}
+#Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px;
+    text-align: center;
+}
+#Home img{
+    display: none;
+}
+.home-content{
+    width: auto;
+    text-align: center;
+    padding: 0;
+}
+.Name{
+    font-size: 1rem;
+}
+.home-content h3,p,button{
+    margin-left: 0;
+}
+.left-text{
+    margin-left: 0;
+    border-radius: 0%;
+    text-align: center;
+}
+/* about section */
+#about{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border-bottom: none;
+}
+#about img{
+    width: 300px;
+    border-bottom: none;
+}
+.about-text{
+    width: auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+.about-text h1{
+    margin: 5px 0;
+    border-bottom: none;
+    text-align: center;
+}
+.circle-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    width: auto;
+}
+.circle{
+    margin: 10px 0;
+}
+/* serves section */
+#services{
+    text-align: center;
+    padding: 20px 0;
+}
+#services p{
+    margin: auto;
+}
+#services p span{
+   margin-left: 0;
+   font-weight: bold;
+}
+.services-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+.s-box-1{
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+}
+/* reviews boxs */
+.review-boxs{
+    margin: auto;
+    padding: auto;
+}
+.review-box1{
+    width: 100%;
+    height: auto;
+}
+/* blog sections */
+#Blog h5{
+    margin-left: 0;;
+}
+.ui-ux{
+    margin: 0;
+}
+.ui-uxbox{
+    width: auto;
+    margin: 10px;
+}
+#contact{
+    border-radius: 5px;
+    padding: 20px;
+    display: block;
+    justify-content: center;
+}
+.contact-title{
+    width: 80%;
+    margin: 13px 0;
+}
+.contact-box{
+   width: auto;
+   margin: 20px 0;
+}
+  } 
+/* Responsive Navigation */
+  @media (max-width: 575px) {
+    /* Styles for mobile devices */
+    #Blog h5{
+        margin: 0 20px;
+        text-align: center;
+    }
+    .social{
+        justify-content: center        ;
+        margin: 0 20px;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .text-box p{
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+    .text-box{
+        flex-wrap: nowrap;
+        padding-left:0;
+        padding: 5px;
+    }
+    .text-box p{
+        margin: auto;
+    }
+     /* home secton */
+     #Home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:0;
+        text-align: center;
+        margin-top: 0;
+        height: auto;
+    }
+    .home-content{
+        color: #9200D7;
+        width: 100%;
+        height: fit-content;
+        text-align: left;
+        padding:25px;
+        margin: 40px auto;
+    }
+    .size-increase{
+        font-size: 3rem;
+        height: auto;
+    }
+    .home-content h1{
+        font-size: 3rem;
+        height: 120px;
+     }
+     .Name{
+         font-size: 1rem;
+     }
+     .left-text{
+        margin-left: 0;
+        border-radius: 0%;
+     }
+     #Home img{
+         display: none;
+     }
+     /* about section */
+     #about{
+         display: flex;
+         flex-wrap: wrap;
+         align-items: center;
+         justify-content: center;
+         padding:10px;
+         border-bottom: none;
+     }
+     #about img{
+         width: 250px;
+         border-bottom: none;
+     }
+     .about-text{
+         width: auto;
+         padding:auto;
+         border-radius: 10px;
+     }
+     .about-text h1{
+         margin: 5px 0;
+         border-bottom: none;
+         text-align: center;
+     }
+     #circle{
+        margin: 20px 0;
+        height: auto;
+        padding: 10px 0;
+        justify-content: space-between;
+    }
+     .circle-content{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         align-items: center;
+         padding:10px;
+         text-align: center;
+         margin-bottom: 110px;
+     }
+     .circle{
+         margin-bottom: 50px;
+         padding: 0;
+     }
+     /* serves section */
+     #services{
+         text-align: center;
+         padding: 0;
+         margin: 0;
+
+     }
+     #services p{
+         margin: auto;
+     }
+     #services p span{
+        margin-left: 0;
+        font-weight: bold;
+     }
+     .services-box{
+         padding: auto 0;
+         margin: 0;     }
+     .s-box-1{
+         width: 100%;
+         padding: 30px 5px;
+         margin: 10px 0;
+     }
+     .s-box-1 p{
+        text-align: center;
+        padding: 5px;
+     }
+     /* reviews boxs */
+     #review-boxs{
+        padding: 0;
+        margin: 0 20px;
+     }
+     .review-boxs{
+        flex-wrap: wrap;
+     }
+     .review-box1{
+         width: 90%;
+         height: auto;
+         margin: 10px 0;
+     }
+     /* blog sections */
+     #Blog{
+         padding: 20px;
+     }
+     .ui-ux{
+         margin: 0;
+     }
+     .ui-uxbox{
+         width: auto;
+         margin: 10px;
+     }
+     .ui-uxbox p{
+        margin: 0;
+        padding: 0;
+     }
+     #contact{
+         border-radius: 5px;
+         padding: 20px;
+         display: block;
+         justify-content: center;
+     }
+     .contact-title{
+         width: 80%;
+         margin: 13px 0;
+     }
+     .contact-box{
+        width: auto;
+        margin: 20px 0;
+     }
+       .text-box{
+        margin: 20px 0;
+        width: auto;
+    }
+    .text-box .p,p{
+        margin-left: 20px;
+        font-weight: 100;
+    }
+    .Projects-btn{
+        margin: auto 0;
+    }
+    .Projects-btn p{
+        margin: 5px 8px;
+    }
+    footer{
+        justify-content: space-between;
+        flex-wrap:nowrap;
+        align-items: center;
+        text-align: center;
+        background: gainsboro;
+        padding: 30px 10px;
+        margin: 0;
+        border-bottom: 5px solid #9200D7;
+    } 
+    footer .logo{
+        width: 11px;
+        display: none;
+    }
+    footer .up-arrow{
+        margin: 0 5px;
+    }
+    .size-increase{
+        font-size: 3rem;
+        height: auto;
+    }
+
+  }
+  /* Responsive Navigation */
+@media screen and (max-width: 768px) {
+    .text-box p{
+        margin: auto;
+    }
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background: white;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 10px 0;
+}
+header button{
+    display: none;
+}
+nav ul.active {
+        display: flex;
+}
+nav ul li {
+        text-align: center;
+        margin: 15px 0;
+}
+.hamburger {
+        display: flex;
+}
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
